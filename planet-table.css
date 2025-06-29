@@ -1,0 +1,43 @@
+body{
+    direction: rtl;
+    font-family: 'nazanin';
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+   
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url(font/bnazanin.woff);
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'nazanin';
+    src: url(font/bnazaninb.woff);
+    font-weight: bold;
+}
+caption{
+    background-color: lightgray;
+}
+tr:first-of-type{
+    background-color: #e7e7e7;
+}
+tr{
+    direction: ltr;
+}
+th , td{
+    padding:3px 8px;
+    border-color: lightgray;
+}
+span{
+    font-weight: bold;
+}
+tr:nth-child(n+2):hover{
+    background-color: rgb(236, 237, 191);
+}
